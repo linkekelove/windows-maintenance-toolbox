@@ -1,0 +1,26 @@
+name: Bug 反馈 / Bug Report
+description: 报告脚本运行中的问题 / Report a problem with the script
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述 / Description
+      description: 发生了什么问题？/ What happened?
+    validations:
+      required: true
+  - type: input
+    id: menu-option
+    attributes:
+      label: 触发功能 / Menu Option
+      description: 执行的是菜单里的哪个选项（如 B、RESET）/ Which menu option was run
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 运行环境 / Environment
+      description: Windows 版本 / Windows version
+    validations:
+      required: true
