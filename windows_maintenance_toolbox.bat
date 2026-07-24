@@ -1,6 +1,6 @@
 @echo off
 setlocal enabledelayedexpansion
-title Windows 终极神谕工作站 V12.0 (God Mode Final)
+title Windows Maintenance Toolbox
 
 :: ======================================================
 :: 1. 管理员权限自动提升 & 运行环境初始化
@@ -20,7 +20,7 @@ set "v_engine=%temp%\v12_engine.vbs"
 set "cur_color=0B"
 
 :: 启动播报
-call :VOICE_ENGINE "欢迎使用第12代上帝模式系统。神谕核心已加载，万物皆在掌控之中。"
+call :VOICE_ENGINE "欢迎使用Windows Maintenance Toolbox"
 
 :: ======================================================
 :: 2. 主菜单 (神谕矩阵布局)
@@ -29,7 +29,7 @@ call :VOICE_ENGINE "欢迎使用第12代上帝模式系统。神谕核心已加载，万物皆在掌控之中
 color !cur_color!
 cls
 echo ==============================================================================
-echo                 WINDOWS 终极神谕工作站 V12.0 (至尊上帝版)
+echo                 Windows Maintenance Toolbox
 echo ==============================================================================
 echo  [状态]: 上帝模式 ^| 音色: !voice_mode! (0:默认 ^| 1:萝莉音) ^| 权限: 管理员
 echo ------------------------------------------------------------------------------
